@@ -5,14 +5,15 @@ Tech stack used - selenium, beautiful soup, celery, djangorestframework
 
 
 There are be 2 APIs in django rest:
-/api/taskmanager/start_scraping [POST]-  this will take in a list payload [“DUKO”, “NOT”, “GORILLA”] which are names of the crypto coins and submit a scraping job(celery will be used) to be run for these coins parallely and return back a job id
+
+1) /api/taskmanager/start_scraping [POST]-  this will take in a list payload [“DUKO”, “NOT”, “GORILLA”] which are names of the crypto coins and submit a scraping job(celery will be used) to be run for these coins parallely and return back a job id
 
 ![image](https://github.com/Shivani505001/Scraping-/assets/98374589/d3f6213c-847b-4b18-b92a-3184a7570420)
 
 ![image](https://github.com/Shivani505001/Scraping-/assets/98374589/10548c42-7344-48e7-8a75-490e7e1ad676)
 
 
-/api/taskmanager/scraping_status/<job_id> [GET] - From the job_id received in the previous API, we can query this API and it will return the currently scraped data for that job. Sample output:
+2) /api/taskmanager/scraping_status/<job_id> [GET] - From the job_id received in the previous API, we can query this API and it will return the currently scraped data for that job. Sample output:
 
 Scraped data in jupyter notebook :
 ![image](https://github.com/Shivani505001/Scraping-/assets/98374589/3e19ecda-9d8b-4abe-8ea7-e3394860aa30)
