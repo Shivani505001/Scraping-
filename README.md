@@ -13,7 +13,7 @@ There are be 2 APIs in django rest:
 ![image](https://github.com/Shivani505001/Scraping-/assets/98374589/10548c42-7344-48e7-8a75-490e7e1ad676)
 
 
-2) /api/taskmanager/scraping_status/<job_id> [GET] - From the job_id received in the previous API, we can query this API and it will return the currently scraped data for that job. Sample output:
+2) /api/taskmanager/scraping_status/<job_id> [GET] - From the job_id received in the previous API, we can query this API and it will return the currently scraped data for that job. 
 
 Scraped data in jupyter notebook :
 ![image](https://github.com/Shivani505001/Scraping-/assets/98374589/3e19ecda-9d8b-4abe-8ea7-e3394860aa30)
