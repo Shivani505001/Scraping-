@@ -1,6 +1,7 @@
 # Scraping-
 
 Idea of the project -  Scrape the data from https://coinmarketcap.com/ and display on a website 
+
 Tech stack used - selenium, beautiful soup, celery, djangorestframework
 
 
